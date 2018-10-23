@@ -1,0 +1,10 @@
+{
+  "/wp-json/shifter/v1/urls/\\?page=0&limit=:limit": "/urls0",
+  "/wp-json/shifter/v1/urls/\\?page=1&limit=:limit": "/urls1",
+  "/wp-json/shifter/v1/urls/\\?page=2&limit=:limit": "/urls2",
+  "/wp-json/shifter/v1/urls/:name/\\?page=:page&limit=:limit": "/page01",
+  "/wp-json/shifter/v1/urls/archives/:year/\\?page=:page&limit=:limit": "/page02",
+  "/wp-json/shifter/v1/urls/archives/:year/:month/\\?page=:page&limit=:limit": "/page02",
+  "/wp-json/shifter/v1/urls/archives/:year/:month/:day/\\?page=:page&limit=:limit": "/page02",
+  "/shifter_404.html": "/empty"
+}

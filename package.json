@@ -1,0 +1,17 @@
+{
+  "name": "shifter-artifact-helper-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start404": "node server.js 404",
+    "start500": "node server.js 500"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.14.0"
+  }
+}
