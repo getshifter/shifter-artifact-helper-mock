@@ -40,3 +40,23 @@ npm run start500
 ## endpoint
 
 localhost:3000
+
+## Run with Docker
+
+build
+
+```
+$ docker build -t shifter-artifact-helper-mock:latest .
+```
+
+run
+
+```
+$ docker run -it --rm -p 3000:3000 shifter-artifact-helper-mock:latest
+```
+
+with args
+
+```
+$ docker run -it --rm -p 3000:3000 shifter-artifact-helper-mock:latest start404
+```
