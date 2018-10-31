@@ -7,4 +7,6 @@ RUN yarn install
 ADD . /srv/code
 ENTRYPOINT [ "yarn" ]
 # start / start404 / start500
+
+EXPOSE 3000
 CMD ["start"]
