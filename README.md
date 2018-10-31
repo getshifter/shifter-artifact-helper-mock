@@ -2,6 +2,9 @@
 This is the mock server of shifter-artifact-helper plugin
 The mock server generate these resources.
 
+[![shifter-artifact-helper-mock](http://dockeri.co/image/getshifter/shifter-artifact-helper-mock)](https://hub.docker.com/r/getshifter/shifter-artifact-helper-mock/)
+
+
 ```
 /wp-json/shifter/v1/urls?page=0&limit=x
 /wp-json/shifter/v1/urls?page=1&limit=x
